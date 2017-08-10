@@ -1,32 +1,35 @@
-asn1crypto==0.22.0
-certifi==2017.7.27.1
-cffi==1.10.0
-chardet==3.0.4
-cryptography==2.0.3
+# asn1crypto==0.22.0
+# certifi==2017.7.27.1
+# cffi==1.10.0
+# chardet==3.0.4
+# cryptography==2.0.3
 dj-database-url==0.4.1
 Django==1.10
 django-jet==1.0.6
-django-pipeline==1.6.13
-Doorsale==0.1.dev20160711221027
-enum34==1.1.6
-futures==3.1.1
+# django-pipeline==1.6.13
+
+git+https://github.com/mysteryjeans/doorsale.git#egg=Doorsale
+
+
+# enum34==1.1.6
+# futures==3.1.1
 gunicorn==19.6.0
-idna==2.5
-ipaddress==1.0.18
-isort==4.2.15
-jedi==0.10.2
-olefile==0.44
-paypalrestsdk==1.13.1
+# idna==2.5
+# ipaddress==1.0.18
+# isort==4.2.15
+# jedi==0.10.2
+# olefile==0.44
+# paypalrestsdk==1.13.1
 Pillow==4.2.1
 psycopg2==2.6.2
-pycodestyle==2.3.1
-pycparser==2.18
-pyOpenSSL==17.2.0
-pytz==2017.2
-requests==2.18.3
-six==1.10.0
-sorl-thumbnail==12.3
-stripe==1.62.0
-urllib3==1.22
+# pycodestyle==2.3.1
+# pycparser==2.18
+# pyOpenSSL==17.2.0
+# pytz==2017.2
+# requests==2.18.3
+# six==1.10.0
+# sorl-thumbnail==12.3
+# stripe==1.62.0
+# urllib3==1.22
 whitenoise==3.2
-yapf==0.16.3
+# yapf==0.16.3
