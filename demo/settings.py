@@ -192,7 +192,7 @@ JET_MODULE_YANDEX_METRIKA_CLIENT_ID = '46de85bff0f94c82bbf42be177f128a2'
 JET_MODULE_YANDEX_METRIKA_CLIENT_SECRET = '01107ac1049b49ab9b24e60e95ba2a93'
 JET_MODULE_GOOGLE_ANALYTICS_CLIENT_SECRETS_FILE = os.path.join(PROJECT_DIR, 'client_secrets.json')
 
-LOGGING_CONFIG = {
+LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
