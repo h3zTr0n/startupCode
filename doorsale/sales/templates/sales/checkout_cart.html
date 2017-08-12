@@ -4,7 +4,7 @@
 {% load catalog_filters %}
 
 {% block checkout-content %}
-<h3>Shopping Cart</h3>
+<h3>Budgeted items</h3>
 {% if error %}
 <div class="error-message-box">
     {{ error }}
@@ -63,7 +63,7 @@
                         {% csrf_token %}
                         <input name="product_id" type="hidden" value="{{ item.product_id }}"/>
                         <a onclick="javascript:$(this).closest('form').submit();" title="Remove this item from the cart"><i class="fa fa-trash-o"></i></a>
-                    </form>  
+                    </form>
                 <span class="total price">{{ item.get_sub_total|currency:default_currency }}</span>
             </td>
         </tr>
@@ -79,7 +79,7 @@
                     <td><span class="price">{{ cart.get_sub_total|currency:default_currency }}</span></td>
                 </tr>
                 <tr>
-                    <td><label>Shipping:</label></td>
+                    <td><label>Delivery-charge:</label></td>
                     <td><span class="price">{{ cart.get_shipping_cost|currency:default_currency }}</span></td>
                 </tr>
                 <tr>
@@ -96,17 +96,17 @@
     <div class="cart-options">
         <form method="post" action="{% url 'sales_remove_all_from_cart' %}" class="remove-all">
             {% csrf_token %}
-            <a href="#" onclick="javascript:$(this).closest('form').submit(); return false;" title="Remove all items from the cart">Remove all
+            <a href="#" onclick="javascript:$(this).closest('form').submit(); return false;" title="Remove all items from the cart">Remove all from budget
             </a>
         </form>
-        <a class="button" href="{% url 'catalog_index' %}" title="Go back to browse catalog">Continue Shopping</a>
+        <a class="button" href="{% url 'catalog_index' %}" title="Go back to browse catalog"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Continue browsing items</a>
         <a href="{% url 'sales_checkout_billing' %}" title="Proceed place order" class="button checkout">
-            <i class="fa fa-shopping-cart"></i>Checkout
+            <i class="fa fa-briefcase" aria-hidden="true"></i> Contact Seller
         </a>
     </div>
     {% else %}
     <div class="no-items" >
-        You have no items in your shopping cart.
+        You have no items in your sum total calculator.
     </div>
     {% endif %}
     {% endwith %}

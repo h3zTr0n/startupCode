@@ -21,9 +21,9 @@ class CategoryAdmin(ModelAdmin):
 
 
 class ProductAdmin(ModelAdmin):
-    list_display = ('name', 'brand', 'price', 'quantity', 'is_active', 'is_bestseller', 'is_featured',)
-    list_filter = ('brand', 'is_active', 'is_bestseller', 'is_featured', 'is_free_shipping', 'created_on',)
-    search_fields = ('name', 'gist', 'brand__name', 'sku', 'gtin', 'part_number',)
+    list_display = ('name', 'brand', 'price', 'quantity', 'is_active', 'is_bestseller', 'is_featured', 'watsapp', 'facebook', 'skype', 'twitter',)
+    list_filter = ('brand', 'is_active', 'is_bestseller', 'is_featured', 'is_free_shipping', 'created_on', 'watsapp', 'facebook', 'skype', 'twitter',)
+    search_fields = ('name', 'gist', 'brand__name', 'sku', 'gtin', 'part_number', 'watsapp', 'facebook', 'skype', 'twitter',)
     prepopulated_fields = {'slug': ('name',)}
     date_hierarchy = 'created_on'
 
@@ -40,7 +40,7 @@ class ProductPicAdmin(ModelAdmin):
     list_filter = ('created_on',)
     search_fields = ('id', 'product__name', 'url',)
     date_hierarchy = 'created_on'
-    
+
 class LocationAdmin(ModelAdmin):
     list_display = ('id', 'province',)
     list_filter = ('province',)

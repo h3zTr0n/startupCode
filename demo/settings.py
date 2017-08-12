@@ -28,7 +28,7 @@ DEBUG = True
 # Define your admin email address here
 # ADMINS = (('<Your Name>', '<Your email address>'),)
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pricetag-it.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition

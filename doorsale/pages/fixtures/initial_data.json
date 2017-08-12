@@ -1,216 +1,217 @@
 [
 {
-    "pk": 1, 
-    "model": "pages.page", 
+    "pk": 1,
+    "model": "pages.page",
     "fields": {
-        "updated_by": "mysteryjeans", 
-        "title": "Contact", 
+        "updated_by": "pricetag-it",
+        "title": "Contact",
         "slug": "contact",
-        "created_by": "mysteryjeans",
-        "published": "2014-09-16T15:15:12.163Z",
-        "status": "PU",  
-        "content": "<p>\r\nWrite contact information in here, you can edit this in admin site.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>", 
-        "created_on": "2014-09-15T21:55:15.004Z", 
-        "updated_on": "2014-09-16T15:15:12.163Z"
+        "created_by": "pricetag-it",
+        "published": "2017-08-16T15:08:12.163Z",
+        "status": "PU",
+        "content": "<p>\r\npricetag-it contact information.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z"
     }
 },
 {
-    "pk": 2, 
-    "model": "pages.page", 
+    "pk": 2,
+    "model": "pages.page",
     "fields": {
-        "updated_by": "mysteryjeans", 
-        "title": "About", 
+        "updated_by": "pricetag-it",
+        "title": "About",
         "slug": "about",
-        "created_by": "mysteryjeans",
-        "published": "2014-09-16T15:15:12.163Z",
-        "status": "PU",  
-        "content": "<p>\r\nWrite about yourself in here, you can edit this in admin site.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>", 
-        "created_on": "2014-09-15T22:58:22.873Z", 
-        "updated_on": "2014-09-16T15:15:27.897Z"
+        "created_by": "pricetag-it",
+        "published": "2017-08-16T15:08:12.163Z",
+        "status": "PU",
+        "content": "<p>\r\nAbout description of pricetag-it.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z"
     }
 },
 {
-    "pk": 3, 
-    "model": "pages.page", 
+    "pk": 3,
+    "model": "pages.page",
     "fields": {
-        "updated_by": "mysteryjeans", 
-        "title": "Privacy Policy", 
+        "updated_by": "pricetag-it",
+        "title": "Privacy Policy",
         "slug": "privacy-policy",
-        "created_by": "mysteryjeans",
-        "published": "2014-09-16T15:15:12.163Z",
-        "status": "PU",  
-        "content": "<p>\r\nWrite about your privacy policy here, you can edit this in admin.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>", 
-        "created_on": "2014-09-15T23:00:39.304Z", 
-        "updated_on": "2014-09-15T23:14:20.157Z"
+        "created_by": "pricetag-it",
+        "published": "2017-08-16T15:08:12.163Z",
+        "status": "PU",
+        "content": "<p>\r\nPrivacy statement for pricetag-it.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z"
     }
 },
 {
-    "pk": 4, 
-    "model": "pages.page", 
+    "pk": 4,
+    "model": "pages.page",
     "fields": {
-        "updated_by": "mysteryjeans", 
-        "title": "Terms of Service", 
+        "updated_by": "pricetag-it",
+        "title": "Terms of Service",
         "slug": "terms-service",
-        "created_by": "mysteryjeans",
-        "published": "2014-09-16T15:15:12.163Z",
-        "status": "PU",  
-        "content": "<p>\r\nWrite about your Term's of Service here, you can edit this page in admin.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>", 
-        "created_on": "2014-09-15T23:05:16.057Z", 
-        "updated_on": "2014-09-15T23:15:00.676Z"
+        "created_by": "pricetag-it",
+        "published": "2017-08-16T15:08:12.163Z",
+        "status": "PU",
+        "content": "<p>\r\nPricetag-it terms and conditions.\r\n<br/>\r\n<br/>\r\n</p>\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet metus non bibendum maximus. Fusce tincidunt, tortor ut ultricies scelerisque, felis sem placerat orci, tempus commodo eros velit eget justo. Fusce tempus quis orci non faucibus. In quis justo eu urna semper condimentum nec at justo. Nullam sit amet nibh vitae mauris porta molestie ac ut lectus. Mauris nibh nisl, porta id ipsum porta, fringilla posuere risus. Ut at elit vel arcu placerat elementum a non dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \r\n</p>",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z"
+
     }
 },
 {
-    "pk": 1, 
-    "model": "pages.link", 
+    "pk": 1,
+    "model": "pages.link",
     "fields": {
-        "group": "Company", 
-        "name": "Contact", 
-        "url": "", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T22:55:08.589Z", 
-        "updated_on": "2014-09-16T15:15:45.108Z", 
-        "page": 1, 
-        "updated_by": "mysteryjeans"
+        "group": "Company",
+        "name": "Contact",
+        "url": "",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": 1,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 2, 
-    "model": "pages.link", 
+    "pk": 2,
+    "model": "pages.link",
     "fields": {
-        "group": "Company", 
-        "name": "About", 
-        "url": "", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T22:59:16.660Z", 
-        "updated_on": "2014-09-16T15:15:39.817Z", 
-        "page": 2, 
-        "updated_by": "mysteryjeans"
+        "group": "Company",
+        "name": "About",
+        "url": "",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": 2,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 3, 
-    "model": "pages.link", 
+    "pk": 3,
+    "model": "pages.link",
     "fields": {
-        "group": "Company", 
-        "name": "Privacy Policy", 
-        "url": "", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:01:17.643Z", 
-        "updated_on": "2014-09-15T23:01:17.643Z", 
-        "page": 3, 
-        "updated_by": "mysteryjeans"
+        "group": "Company",
+        "name": "Privacy Policy",
+        "url": "",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": 3,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 5, 
-    "model": "pages.link", 
+    "pk": 5,
+    "model": "pages.link",
     "fields": {
-        "group": "Company", 
-        "name": "Terms of Service", 
-        "url": "", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:05:59.465Z", 
-        "updated_on": "2014-09-15T23:05:59.465Z", 
-        "page": 4, 
-        "updated_by": "mysteryjeans"
+        "group": "Company",
+        "name": "Terms of Service",
+        "url": "",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": 4,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 6, 
-    "model": "pages.link", 
+    "pk": 6,
+    "model": "pages.link",
     "fields": {
-        "group": "Service", 
-        "name": "Login", 
-        "url": "/accounts/login/", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:21:26.408Z", 
-        "updated_on": "2014-09-15T23:27:47.210Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Service",
+        "name": "Login",
+        "url": "/accounts/login/",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 7, 
-    "model": "pages.link", 
+    "pk": 7,
+    "model": "pages.link",
     "fields": {
-        "group": "Service", 
-        "name": "Register", 
-        "url": "/accounts/register/", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:23:00.305Z", 
-        "updated_on": "2014-09-15T23:27:40.736Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Service",
+        "name": "Register",
+        "url": "/accounts/register/",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 8, 
-    "model": "pages.link", 
+    "pk": 8,
+    "model": "pages.link",
     "fields": {
-        "group": "Follow Us", 
-        "name": "Facebook", 
-        "url": "http://facebook.com", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:24:48.684Z", 
-        "updated_on": "2014-09-15T23:24:48.684Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Follow Us",
+        "name": "Facebook",
+        "url": "http://facebook.com",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 9, 
-    "model": "pages.link", 
+    "pk": 9,
+    "model": "pages.link",
     "fields": {
-        "group": "Follow Us", 
-        "name": "Twitter", 
-        "url": "https://twitter.com", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:25:11.964Z", 
-        "updated_on": "2014-09-15T23:25:11.963Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Follow Us",
+        "name": "Twitter",
+        "url": "https://twitter.com",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 10, 
-    "model": "pages.link", 
+    "pk": 10,
+    "model": "pages.link",
     "fields": {
-        "group": "Follow Us", 
-        "name": "Google+", 
-        "url": "https://plus.google.com", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:25:39.098Z", 
-        "updated_on": "2014-09-15T23:25:39.098Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Follow Us",
+        "name": "Google+",
+        "url": "https://plus.google.com",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 11, 
-    "model": "pages.link", 
+    "pk": 11,
+    "model": "pages.link",
     "fields": {
-        "group": "Service", 
-        "name": "support@doorsale.com", 
-        "url": "mailto:support@doorsale.com", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:26:17.976Z", 
-        "updated_on": "2014-09-15T23:26:17.976Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Service",
+        "name": "support@pricetag-it.com",
+        "url": "mailto:support@pricetag-it.com",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 },
 {
-    "pk": 12, 
-    "model": "pages.link", 
+    "pk": 12,
+    "model": "pages.link",
     "fields": {
-        "group": "Service", 
-        "name": "P: (800) 111-4444 ", 
-        "url": "tel:++18001114444 ", 
-        "created_by": "mysteryjeans", 
-        "created_on": "2014-09-15T23:27:22.601Z", 
-        "updated_on": "2014-09-16T15:20:51.517Z", 
-        "page": null, 
-        "updated_by": "mysteryjeans"
+        "group": "Service",
+        "name": "P: (+260) 972-9295374 ",
+        "url": "tel:+260 74920305 ",
+        "created_by": "pricetag-it",
+        "created_on": "2017-06-15T23:26:17.976Z",
+        "updated_on": "2017-07-15T23:26:17.976Z",
+        "page": null,
+        "updated_by": "pricetag-it"
     }
 }
 ]

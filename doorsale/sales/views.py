@@ -142,7 +142,7 @@ class CheckoutCartView(CheckoutBaseView):
                 quantity = int(request.POST['quantity'])
                 if quantity > 0:
                     cart.update_item(product_id, quantity)
-                    message = 'Your shopping cart has been updated.'
+                    message = 'Your budget notepad has been updated.'
                 else:
                     raise ValueError()
             except ValueError:
@@ -171,7 +171,7 @@ class CheckoutAddressView(CheckoutBaseView):
 
         addresses_ids = request.session.get('addresses', None)
         if addresses_ids:
-            addresses_filter = (addresses_filter | Q(id__in=addresses_ids)) if addresses_filter else Q(id__in=addresses_ids) 
+            addresses_filter = (addresses_filter | Q(id__in=addresses_ids)) if addresses_filter else Q(id__in=addresses_ids)
 
         if addresses_filter:
             context['addresses'] = list(Address.objects.filter(addresses_filter))

@@ -1,7 +1,7 @@
 {% extends catalog_template_name %}
 
 {% block catalog-content %}
-<div class="checkout-steps">
+<!-- <div class="checkout-steps">
     <ul>
         <li class="{% if 'cart' in steps_processed %}processed{% endif %} {% if step_active == 'cart' %}active{% endif %}">
             <a {% if 'cart' in  steps_processed %}href="{% url 'sales_checkout_cart' %}"{% endif %}>
@@ -32,6 +32,6 @@
             <a><i class="fa fa-print"></i><span>Receipt</span></a>
         </li>
     </ul>
-</div>
+</div> -->
 {% block checkout-content %}{% endblock %}
 {% endblock %}

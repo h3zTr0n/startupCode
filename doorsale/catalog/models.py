@@ -192,7 +192,12 @@ class Product(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     created_by = models.CharField(max_length=100)
     province_name = models.ForeignKey(Location, null=True, blank=True)
+    # province_name = models.CharField(("Province Name"), max_length=255, null=True, blank=True, default="Central")
     cell = models.CharField(("Phone Number"), max_length=255, blank=True, null=True)
+    watsapp = models.CharField(("Watsapp Number"), max_length=255, null=True, blank=True)
+    facebook = models.CharField(("Facebook Username"), max_length=255, null=True, blank=True)
+    skype = models.CharField(("Skype Username"), max_length=255, null=True, blank=True)
+    twitter = models.CharField(("Twitter username"), max_length=255, null=True, blank=True)
     email = models.EmailField(("Email"), null=True, blank=True)
     location_name = models.CharField(("Location"), max_length=255, null=True, blank=True)
 

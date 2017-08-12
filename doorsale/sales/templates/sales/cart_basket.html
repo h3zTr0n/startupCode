@@ -8,7 +8,7 @@
 			{% if items_count %}
 			<span class="basket-items-count">{{ items_count  }}</span>
 			{% endif %}
-			<i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
 		</div>
 		<span class="price">{{ sub_total|currency:default_currency }}</span>
 	</div>
@@ -43,11 +43,11 @@
 			<p>
 				<label>Sub-Total:</label> <span class="price">{{ sub_total|currency:default_currency }}</span>
 			</p>
-			<a href="{% url 'sales_checkout_cart' %}" class="button">Checkout</a>
+			<a href="{% url 'sales_checkout_cart' %}" class="button"><i class="fa fa-briefcase" aria-hidden="true"></i> Contact Seller</a>
 		</div>
 		{% else %}
 		<div class="no-items" >
-			You have no items in your shopping cart.
+			You have no items to calculate sum total on.
 		</div>
 		{% endif %}
 	</div>

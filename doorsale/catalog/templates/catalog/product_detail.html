@@ -23,62 +23,118 @@
 				<span class="out-of-stock">Out of Stock</span>
 				{% endif %}
 			</li>
-            <li><div class="in-stock"><i><h4>Seller Details</h4></i></div>
-			<li>
-				 <label>Brand:</label> <a href="{{ product.brand.get_absolute_url }}">{{ product.brand.name }}</a>
+        </br>
+
+            <li><div class="in-stock"><i><h4><a id="sellerdetails">Seller Details</a></h4></i></div>
+    			<li>
+                    <i class="fa fa-font-awesome" aria-hidden="true"><label> Brand: </label></i> <a href="{{ product.brand.get_absolute_url }}">{{ product.brand.name }}</a>
+                </li>
 			</li>
+        </br>
+
 			<li>
 				{% if product.is_free_shipping %}
 				<div class="free-shipping">
-					Free Delivery
+                    <i class="fa fa-truck" aria-hidden="true"> Free Delivery</i>
 				</div>
 				{% else %}
-				<label>Delivery cost:</label> {{ product.shipping_cost|currency:default_currency }}
+                <i class="fa fa-truck" aria-hidden="true"><label> Delivery  cost:</label></i> {{ product.shipping_cost|currency:default_currency }}
 				{% endif %}
 			</li>
+        </br>
+
 
             <li>
-				{% if not product.province %}
+				{% if not product.province_name %}
 				<div class="free-shipping">
-					Province not specified
+                    <i class="fa fa-map-marker" aria-hidden="true"> Province not specified</i>
 				</div>
 				{% else %}
-                <label>Province:</label> {{ product.province }}
+                <i class="fa fa-map-marker" aria-hidden="true"><label> Province: </label></i> {{ product.province_name }}
 				{% endif %}
 			</li>
+        </br>
+
             <li>
                 {% if not product.location_name %}
                 <div class="free-shipping">
-                    Area not specified
+                    <i class="fa fa-location-arrow" aria-hidden="true"> Area not specified</i>
                 </div>
                 {% else %}
-                <label>Area:</label> {{ product.location_name }}
+                <i class="fa fa-location-arrow" aria-hidden="true"><label> Area: </label></i> {{ product.location_name }}
                 {% endif %}
             </li>
+        </br>
+
             <li>
                 {% if not product.cell %}
                 <div class="free-shipping">
-                    Phone Number not specified
+                    <i class="fa fa-phone" aria-hidden="true"> Phone number not specified</i>
                 </div>
                 {% else %}
-                <label>Cell:</label> {{ product.cell }}
+                <i class="fa fa-phone" aria-hidden="true"><label> Cell: </label></i> {{ product.cell }}
                 {% endif %}
             </li>
+        </br>
+
             <li>
                 {% if not product.email %}
                 <div class="free-shipping">
-                    Email not specified
+                    <i class="fa fa-envelope" aria-hidden="true"> Email not specified</i>
                 </div>
                 {% else %}
-                <label>Email:</label> {{ product.email }}
+                <i class="fa fa-envelope" aria-hidden="true"><label> Email: </label></i> {{ product.email }}
+                {% endif %}
+            </li>
+        </br>
+
+            <li>
+                {% if not product.facebook %}
+                <div class="free-shipping">
+                    <i class="fa fa-facebook" aria-hidden="true"> Facebook Username  not specified</i>
+                </div>
+                {% else %}
+                <i class="fa fa-facebook" aria-hidden="true"><label> Facebook: </label></i> {{ product.facebook }}
+                {% endif %}
+            </li>
+        </br>
+
+            <li>
+                {% if not product.skype %}
+                <div class="free-shipping">
+                    <i class="fa fa-skype" aria-hidden="true"> Skype Username  not specified</i>
+                </div>
+                {% else %}
+                <i class="fa fa-skype" aria-hidden="true"><label> Skype: </label></i> {{ product.skype }}
+                {% endif %}
+            </li>
+        </br>
+
+            <li>
+                {% if not product.twitter %}
+                <div class="free-shipping">
+                    <i class="fa fa-twitter" aria-hidden="true"> Twitter Username  not specified</i>
+                </div>
+                {% else %}
+                <i class="fa fa-twitter" aria-hidden="true"><label> Twitter: </label></i> {{ product.twitter }}
+                {% endif %}
+            </li>
+        </br>
+            <li>
+                {% if not product.watsapp %}
+                <div class="free-shipping">
+                    <i class="fa fa-whatsapp" aria-hidden="true"> Watsapp number not specified</i>
+                </div>
+                {% else %}
+                <i class="fa fa-whatsapp" aria-hidden="true"><label> Watsapp: </label></i> {{ product.watsapp }}
                 {% endif %}
             </li>
 
 			<li class="price">
-				{{ product.price|currency:default_currency }}
+                <i class="fa fa-money" aria-hidden="true"> Cost Price :|: {{ product.price|currency:default_currency }}</i>
 				{% if product.old_price %}
-				<span class="old-price"> {{ product.old_price|currency:default_currency }}</span>
-				<span class="discount"> {{ product.get_discount }}% OFF</span>
+				<i class="fa fa-money" aria-hidden="true"> Old Price :|: </i><span class="old-price"> {{ product.old_price|currency:default_currency }}</span>
+				<i class="fa fa-money" aria-hidden="true"> Discount Value:|: </i><span class="discount"> {{ product.get_discount }}% OFF</span>
 				{% endif %}
 			</li>
 			<li class="add-to-cart-summary">
@@ -88,10 +144,10 @@
 					<input name="product_id" type="hidden" value="{{ product.id }}"/>
 					<input name="quantity" type="text" value="1"/>
 					<button class="add-to-cart">
-						<i class="fa fa-shopping-cart"></i>Add to total cost
+                        <i class="fa fa-plus" aria-hidden="true"></i>Add to total buying cost calculator
 					</button>
-					<button class="buy-now" onclick="javascript:$(this).closest('form').unbind('submit'); $(this).closest('form').submit();">
-						<i class="fa fa-money"></i>Contact Seller
+					<button class="buy-now" onclick="#javascript:$(this).closest('form').unbind('submit'); $(this).closest('form').submit();">
+                        <i class="fa fa-briefcase" aria-hidden="true">Contact Seller</i>
 					</button>
 				</form>
 			</li>
